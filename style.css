@@ -83,13 +83,13 @@ body{
 .container .hand.minute{
     width: 7px;
     height: 35%;
-    z-index: 11;
+    z-index: 12;
     background-color: rgb(29, 236, 10);
 }
 .container .hand.hour{
     width: 10px;
     height: 30%;
-    z-index: 12;
+    z-index: 11;
     background-color: rgb(9, 136, 30);
 }
 
