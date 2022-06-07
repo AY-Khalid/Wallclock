@@ -114,3 +114,40 @@ h1 {
     bottom: 60%;
     transform: translateX(-50%);
 }
+
+@media (max-width: 670px) {
+    .container{
+        width: 250px;
+        height: 250px;
+        background-color: blue;
+        color: white;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 20px groove rgb(16, 108, 168);
+        margin-top: 50px;
+        position: relative;
+        font-size: 18px;
+    }
+
+    .container::after{
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background-color: rgb(9, 16, 116);
+        z-index: 14;
+        transform: translate(-50%, -10%);
+        left: 50%;
+        bottom: 46%;  
+        border-radius: 50%; 
+    }
+
+    h1 {
+        position: absolute;
+        left: 50%;
+        z-index: 9;
+        color: rgb(102, 102, 16);
+        bottom: 70%;
+        transform: translateX(-50%);
+    }
+}
